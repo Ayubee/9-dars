@@ -91,3 +91,28 @@
 // }
 
 // console.log(songiElement([1, 2, 3]));
+
+// 58.Funskiyaga so’z kiritilsa funksiya ushbu so’zni birinchi harfisiz qaytarib bersin.
+// function soz(word) {
+//   return word.slice(1);
+// }
+// console.log(soz("apple"));
+
+// 59.Boolen qiymatini teskarisini qaytarib beradigan funksiya yasang.
+// function teskariBool(bool) {
+//   return !bool;
+// }
+
+// console.log(teskariBool(false));
+
+// 60.Funskiya son qabul qiladi, agar son juft bo’lsa funskiya “juft” qaytaradi, agar toq bo’lsa “toq” qaytarsin.
+// function juftMiToqmi(son) {
+//   if (son % 2 == 0) {
+//     console.log("juft");
+//   } else {
+//     console.log("toq");
+//   }
+//   return son;
+// }
+
+// console.log(juftMiToqmi(3));
